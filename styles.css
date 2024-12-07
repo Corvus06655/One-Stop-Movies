@@ -27,9 +27,9 @@ header {
 /* Container */
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Increased the minimum size */
+    gap: 30px; /* Increased the gap between blocks */
+    padding: 30px;
     justify-items: center;
 }
 
@@ -41,7 +41,7 @@ header {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px; /* Increased the max-width */
 }
 
 /* Movie Hover Animation */
@@ -65,13 +65,13 @@ header {
 
 /* Movie Details */
 .details {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 
 /* Movie Title */
 .details h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem; /* Increased title size */
     color: #333;
     margin-bottom: 10px;
     transition: color 0.3s ease;
@@ -84,7 +84,7 @@ header {
 
 /* Movie Description */
 .details p {
-    font-size: 1rem;
+    font-size: 1.2rem; /* Increased description size */
     color: #666;
     margin-bottom: 15px;
     font-weight: 300;
@@ -93,7 +93,7 @@ header {
 /* Download Button */
 .details a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 25px; /* Increased padding */
     background-color: #ff6347;
     color: white;
     text-decoration: none;
